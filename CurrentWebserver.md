@@ -13,3 +13,6 @@ Type: DOIT ESP32 Devkit V1
 
 https://randomnerdtutorials.com/esp32-access-point-ap-web-server/
 
+## Send to Asksensors
+
+https://github.com/asksensors/AskSensors-ESP32-API/blob/master/http_get.ino
