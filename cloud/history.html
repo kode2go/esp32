@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV File Selection</title>
+</head>
+<body>
+    <h1>Select a CSV File to Plot</h1>
+    <form action="/flask/history" method="POST">
+        <select name="csv_file">
+            {% for file in csv_files %}
+            <option value="{{ file }}">{{ file }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Plot">
+    </form>
+
+    <a href="/flask">Back to Live Data</a>
+</body>
+</html>
